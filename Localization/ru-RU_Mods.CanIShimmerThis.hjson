@@ -1,0 +1,21 @@
+# This file will automatically update with entries for new content after a build and reload
+Shimmerable: Трансмутабельный
+ShimmerCoinLuck: Трансмутируется в удачу из монет ({0})
+ShimmerableIntoItem: Трансмутируется в предмет [i:{0}] ({1})
+ShimmerableIntoNPC: Трансмутируется в NPC '{0}'
+
+Configs: {
+	CISTModConfig: {
+		DisplayName: Настройка всплывающей подсказки
+
+		forceShowOutcome: {
+			Label: Всегда показывать результат трансмутации
+			Tooltip: Если этот параметр включен, подсказка о трансмутации всегда будет показывать, во что трансмутируется предмет. Переопределяет режим прогресса.
+		}
+
+		discoveryMode: {
+			Label: Режим прогресса
+			Tooltip: Если эта опция включена, подсказка о трансмутации предмета будет показывать результат трансмутации только после того, как вы трансмутировали данный предмет хотя бы один раз.
+		}
+	}
+}

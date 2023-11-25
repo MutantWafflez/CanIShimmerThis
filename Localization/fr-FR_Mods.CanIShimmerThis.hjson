@@ -1,0 +1,21 @@
+# This file will automatically update with entries for new content after a build and reload
+Shimmerable: Transmutable
+ShimmerCoinLuck: Transmuable en chance à partir de pièces de monnaie ({0})
+ShimmerableIntoItem: Transmutable en objet [i:{0}] ({1})
+ShimmerableIntoNPC: Transmutable en NPC '{0}'
+
+Configs: {
+	CISTModConfig: {
+		DisplayName: Configuration de l'infobulle
+
+		forceShowOutcome: {
+			Label: Toujours afficher le résultat de la transmutation
+			Tooltip: Si elle est activée, l'info-bulle Shimmer montrera toujours en quoi un objet se transmute. Remplace le mode découverte.
+		}
+
+		discoveryMode: {
+			Label: Mode découverte
+			Tooltip: Si cette option est activée, l'info-bulle Shimmer d'un objet n'affichera son résultat Shimmer qu'après avoir transmué l'objet donné au moins une fois.
+		}
+	}
+}

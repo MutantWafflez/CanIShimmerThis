@@ -1,0 +1,21 @@
+# This file will automatically update with entries for new content after a build and reload
+Shimmerable: Trasmutabile
+ShimmerCoinLuck: Trasformabile in fortuna dalle monete ({0})
+ShimmerableIntoItem: Trasmutabile in oggetto [i:{0}] ({1})
+ShimmerableIntoNPC: Trasformabile in NPC '{0}'
+
+Configs: {
+	CISTModConfig: {
+		DisplayName: Configurazione della descrizione comando
+
+		forceShowOutcome: {
+			Label: Mostra sempre il risultato Shimmer
+			Tooltip: Se abilitato, il tooltip Shimmer mostrerà sempre in cosa si trasforma un oggetto. Sostituisce la modalità di rilevamento.
+		}
+
+		discoveryMode: {
+			Label: Modalità di scoperta
+			Tooltip: Se abilitato, il tooltip Shimmer di un oggetto mostrerà il suo risultato Shimmer solo dopo aver trasmutato l'oggetto specificato almeno una volta.
+		}
+	}
+}

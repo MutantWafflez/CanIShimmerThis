@@ -1,0 +1,21 @@
+# This file will automatically update with entries for new content after a build and reload
+Shimmerable: Transmutowalny
+ShimmerCoinLuck: Przemienialne w szczęście z monet ({0})
+ShimmerableIntoItem: Możliwość przekształcenia w przedmiot [i:{0}] ({1})
+ShimmerableIntoNPC: Możliwość przekształcenia w NPC '{0}'
+
+Configs: {
+	CISTModConfig: {
+		DisplayName: Konfiguracja etykietki narzędzia
+
+		forceShowOutcome: {
+			Label: Zawsze pokazuj wynik transmutacji
+			Tooltip: Jeśli ta opcja jest włączona, etykieta transmutacji zawsze będzie pokazywać, w co przedmiot się transmutuje. Zastępuje tryb progresji.
+		}
+
+		discoveryMode: {
+			Label: Tryb progresji
+			Tooltip: Jeśli ta opcja jest włączona, podpowiedź transmutacji przedmiotu pokaże wynik transmutacji dopiero po transmutacji danego przedmiotu przynajmniej raz.
+		}
+	}
+}

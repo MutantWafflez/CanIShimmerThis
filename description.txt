@@ -1,0 +1,5 @@
+Adds a tooltip to items that can be transmuted into another item or NPC via the Shimmer liquid.
+
+Has configuration options to show what exactly items will transmute into (off by default.)
+
+Note: Translations may not be 100% accurate.

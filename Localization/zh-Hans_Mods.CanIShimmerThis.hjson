@@ -1,0 +1,21 @@
+# This file will automatically update with entries for new content after a build and reload
+Shimmerable: 可变换的
+ShimmerCoinLuck: 可以从硬币转化为运气 ({0})
+ShimmerableIntoItem: 可转化为物品 [i:{0}] ({1})
+ShimmerableIntoNPC: 可变形为 NPC '{0}'
+
+Configs: {
+	CISTModConfig: {
+		DisplayName: 工具提示配置
+
+		forceShowOutcome: {
+			Label: 始终显示嬗变结果
+			Tooltip: 如果启用，微光工具提示将始终显示项目转变为的内容。 覆盖发现模式。
+		}
+
+		discoveryMode: {
+			Label: 启用发现模式
+			Tooltip: 如果启用，项目的微光工具提示将仅在您至少转化给定项目一次后显示其微光结果。
+		}
+	}
+}
