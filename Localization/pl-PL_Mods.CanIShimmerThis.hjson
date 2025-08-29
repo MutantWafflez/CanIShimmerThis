@@ -3,19 +3,41 @@ Shimmerable: Transmutowalny
 ShimmerCoinLuck: Przemienialne w szczęście z monet ({0})
 ShimmerableIntoItem: Możliwość przekształcenia w przedmiot [i:{0}] ({1})
 ShimmerableIntoNPC: Możliwość przekształcenia w NPC '{0}'
+// Decraftable: Decraftable
+/* DecraftsInto:
+	'''
+	Decrafts Into:
+	{0}
+	''' */
+// DecraftsIntoCompact: Decrafts Into {0}
 
 Configs: {
 	CISTModConfig: {
 		DisplayName: Konfiguracja etykietki narzędzia
+
+		discoveryMode: {
+			Label: Tryb progresji
+			Tooltip: Jeśli ta opcja jest włączona, podpowiedź transmutacji przedmiotu pokaże wynik transmutacji dopiero po transmutacji danego przedmiotu przynajmniej raz.
+		}
 
 		forceShowOutcome: {
 			Label: Zawsze pokazuj wynik transmutacji
 			Tooltip: Jeśli ta opcja jest włączona, etykieta transmutacji zawsze będzie pokazywać, w co przedmiot się transmutuje. Zastępuje tryb progresji.
 		}
 
-		discoveryMode: {
-			Label: Tryb progresji
-			Tooltip: Jeśli ta opcja jest włączona, podpowiedź transmutacji przedmiotu pokaże wynik transmutacji dopiero po transmutacji danego przedmiotu przynajmniej raz.
+		showDecrafts: {
+			// Label: Show Decrafting Tooltip
+			// Tooltip: If enabled, will add an additional tooltip denoting that an item is decraftable, and what into.
+		}
+
+		forceShowDecraftOutcome: {
+			// Label: Always Show Decraft Outcome
+			// Tooltip: If enabled, the Decraft tooltip will always show what an item decrafts into. Overrides Discovery Mode.
+		}
+
+		compactDecraftList: {
+			// Label: Compact Decraft List
+			// Tooltip: If enabled, the Decraft tooltip will show all resulting decraft items on the same line.
 		}
 	}
 }

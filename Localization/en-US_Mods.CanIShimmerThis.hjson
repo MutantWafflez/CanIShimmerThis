@@ -3,19 +3,41 @@ Shimmerable: Shimmerable
 ShimmerCoinLuck: Shimmerable Into Coin Luck ({0})
 ShimmerableIntoItem: Shimmerable Into Item [i:{0}] ({1})
 ShimmerableIntoNPC: Shimmerable Into NPC '{0}'
+Decraftable: Decraftable
+DecraftsInto:
+	'''
+	Decrafts Into:
+	{0}
+	'''
+DecraftsIntoCompact: Decrafts Into {0}
 
 Configs: {
 	CISTModConfig: {
 		DisplayName: Tooltip Config
 
+		discoveryMode: {
+			Label: Discovery Mode
+			Tooltip: If enabled, both an item's Shimmer/Decraft tooltip will show their outcome after you have Shimmered the given item at least once.
+		}
+
 		forceShowOutcome: {
-			Label: Always Show Shimmer Outcome
+			Label: Always Show Transmutation Outcome
 			Tooltip: If enabled, the Shimmer tooltip will always show what an item transmutes into. Overrides Discovery Mode.
 		}
 
-		discoveryMode: {
-			Label: Discovery Mode
-			Tooltip: If enabled, an item's Shimmer tooltip will only show its Shimmer outcome after you have Shimmered the given item at least once.
+		showDecrafts: {
+			Label: Show Decrafting Tooltip
+			Tooltip: If enabled, will add an additional tooltip denoting that an item is decraftable, and what into.
+		}
+
+		forceShowDecraftOutcome: {
+			Label: Always Show Decraft Outcome
+			Tooltip: If enabled, the Decraft tooltip will always show what an item decrafts into. Overrides Discovery Mode.
+		}
+
+		compactDecraftList: {
+			Label: Compact Decraft List
+			Tooltip: If enabled, the Decraft tooltip will show all resulting decraft items on the same line.
 		}
 	}
 }

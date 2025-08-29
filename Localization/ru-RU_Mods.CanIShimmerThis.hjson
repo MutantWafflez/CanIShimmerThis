@@ -3,19 +3,41 @@ Shimmerable: Трансмутабельный
 ShimmerCoinLuck: Трансмутируется в удачу из монет ({0})
 ShimmerableIntoItem: Трансмутируется в предмет [i:{0}] ({1})
 ShimmerableIntoNPC: Трансмутируется в NPC '{0}'
+// Decraftable: Decraftable
+/* DecraftsInto:
+	'''
+	Decrafts Into:
+	{0}
+	''' */
+// DecraftsIntoCompact: Decrafts Into {0}
 
 Configs: {
 	CISTModConfig: {
 		DisplayName: Настройка всплывающей подсказки
+
+		discoveryMode: {
+			Label: Режим прогресса
+			Tooltip: Если эта опция включена, подсказка о трансмутации предмета будет показывать результат трансмутации только после того, как вы трансмутировали данный предмет хотя бы один раз.
+		}
 
 		forceShowOutcome: {
 			Label: Всегда показывать результат трансмутации
 			Tooltip: Если этот параметр включен, подсказка о трансмутации всегда будет показывать, во что трансмутируется предмет. Переопределяет режим прогресса.
 		}
 
-		discoveryMode: {
-			Label: Режим прогресса
-			Tooltip: Если эта опция включена, подсказка о трансмутации предмета будет показывать результат трансмутации только после того, как вы трансмутировали данный предмет хотя бы один раз.
+		showDecrafts: {
+			// Label: Show Decrafting Tooltip
+			// Tooltip: If enabled, will add an additional tooltip denoting that an item is decraftable, and what into.
+		}
+
+		forceShowDecraftOutcome: {
+			// Label: Always Show Decraft Outcome
+			// Tooltip: If enabled, the Decraft tooltip will always show what an item decrafts into. Overrides Discovery Mode.
+		}
+
+		compactDecraftList: {
+			// Label: Compact Decraft List
+			// Tooltip: If enabled, the Decraft tooltip will show all resulting decraft items on the same line.
 		}
 	}
 }

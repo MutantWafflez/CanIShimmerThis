@@ -3,19 +3,41 @@ Shimmerable: Transmutável
 ShimmerCoinLuck: Transmutável em sorte a partir de moedas ({0})
 ShimmerableIntoItem: Transmutável em item [i:{0}] ({1})
 ShimmerableIntoNPC: Transmutável em NPC '{0}'
+// Decraftable: Decraftable
+/* DecraftsInto:
+	'''
+	Decrafts Into:
+	{0}
+	''' */
+// DecraftsIntoCompact: Decrafts Into {0}
 
 Configs: {
 	CISTModConfig: {
 		DisplayName: Configuração da dica de ferramenta
+
+		discoveryMode: {
+			Label: Modo de descoberta
+			Tooltip: Se ativado, a dica de ferramenta de Shimmer de um item só mostrará seu resultado de Shimmer depois de você ter transmutado o item fornecido pelo menos uma vez.
+		}
 
 		forceShowOutcome: {
 			Label: Sempre mostre o resultado do Shimmer
 			Tooltip: Se ativado, a dica de ferramenta do Shimmer sempre mostrará em que um item se transmuta. Substitui o modo de descoberta.
 		}
 
-		discoveryMode: {
-			Label: Modo de descoberta
-			Tooltip: Se ativado, a dica de ferramenta de Shimmer de um item só mostrará seu resultado de Shimmer depois de você ter transmutado o item fornecido pelo menos uma vez.
+		showDecrafts: {
+			// Label: Show Decrafting Tooltip
+			// Tooltip: If enabled, will add an additional tooltip denoting that an item is decraftable, and what into.
+		}
+
+		forceShowDecraftOutcome: {
+			// Label: Always Show Decraft Outcome
+			// Tooltip: If enabled, the Decraft tooltip will always show what an item decrafts into. Overrides Discovery Mode.
+		}
+
+		compactDecraftList: {
+			// Label: Compact Decraft List
+			// Tooltip: If enabled, the Decraft tooltip will show all resulting decraft items on the same line.
 		}
 	}
 }
