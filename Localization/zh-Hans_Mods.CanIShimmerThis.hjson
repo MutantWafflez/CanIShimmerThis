@@ -4,7 +4,7 @@ ShimmerCoinLuck: 可以从硬币转化为运气 ({0})
 ShimmerableIntoItem: 可转化为物品 [i:{0}] ({1})
 ShimmerableIntoNPC: 可变形为 NPC '{0}'
 Decraftable: 可换档
- DecraftsInto:
+DecraftsInto:
 	'''
 	降低到：
 	{0}
@@ -26,13 +26,13 @@ Configs: {
 		}
 
 		showDecrafts: {
-			 Label: 显示破碎工具提示
-			 Tooltip: 如果启用了，将添加一个额外的工具提示，表示项目不可能以及内容。
+			Label: 显示破碎工具提示
+			Tooltip: 如果启用了，将添加一个额外的工具提示，表示项目不可能以及内容。
 		}
 
 		forceShowDecraftOutcome: {
-			Label: 始终显示出远离结果 
-			Tooltip: 如果启用了，则Nevaft Tooltip将始终显示项目notaft的内容。覆盖发现模式。 
+			Label: 始终显示出远离结果
+			Tooltip: 如果启用了，则Nevaft Tooltip将始终显示项目notaft的内容。覆盖发现模式。
 		}
 
 		compactDecraftList: {
