@@ -22,7 +22,7 @@ public class CISTModConfig : ModConfig {
     ///     Whether to display the additional tooltip that reveals what a given item will decraft into,
     ///     if it is shimmerable.
     /// </summary>
-    [DefaultValue(false)]
+    [DefaultValue(true)]
     public bool showDecrafts;
 
     /// <summary>
