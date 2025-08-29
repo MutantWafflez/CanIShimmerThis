@@ -3,13 +3,13 @@ Shimmerable: Transmutowalny
 ShimmerCoinLuck: Przemienialne w szczęście z monet ({0})
 ShimmerableIntoItem: Możliwość przekształcenia w przedmiot [i:{0}] ({1})
 ShimmerableIntoNPC: Możliwość przekształcenia w NPC '{0}'
-// Decraftable: Decraftable
-/* DecraftsInto:
+Decraftable: Zmniejszone
+DecraftsInto:
 	'''
-	Decrafts Into:
+	Zmniejsza się do:
 	{0}
-	''' */
-// DecraftsIntoCompact: Decrafts Into {0}
+	'''
+DecraftsIntoCompact: Zmniejsza się do {0}
 
 Configs: {
 	CISTModConfig: {
@@ -26,18 +26,18 @@ Configs: {
 		}
 
 		showDecrafts: {
-			// Label: Show Decrafting Tooltip
-			// Tooltip: If enabled, will add an additional tooltip denoting that an item is decraftable, and what into.
+			Label: Pokaż obudowę decrafting
+			Tooltip: Jeśli zostanie włączony, doda dodatkową przewagę, oznaczającą, że element jest możliwy do zmniejszenia i co do.
 		}
 
 		forceShowDecraftOutcome: {
-			// Label: Always Show Decraft Outcome
-			// Tooltip: If enabled, the Decraft tooltip will always show what an item decrafts into. Overrides Discovery Mode.
+			Label: Zawsze wykazują wynik zmniejszania
+			Tooltip: Jeśli jest włączony, podpowiedź ożywienia zawsze pokaże, w co element zmniejsza się. Zastępuje tryb odkrywania.
 		}
 
 		compactDecraftList: {
-			// Label: Compact Decraft List
-			// Tooltip: If enabled, the Decraft tooltip will show all resulting decraft items on the same line.
+			Label: Kompaktowa lista zmniejszenia
+			Tooltip: Jeśli zostanie włączone, podpowiedź zmniejszy się wszystkie wynikające z tego elementy zmniejszające się na tej samej linii.
 		}
 	}
 }

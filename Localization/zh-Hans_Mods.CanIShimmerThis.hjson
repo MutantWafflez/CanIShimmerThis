@@ -3,13 +3,13 @@ Shimmerable: 可变换的
 ShimmerCoinLuck: 可以从硬币转化为运气 ({0})
 ShimmerableIntoItem: 可转化为物品 [i:{0}] ({1})
 ShimmerableIntoNPC: 可变形为 NPC '{0}'
-// Decraftable: Decraftable
-/* DecraftsInto:
+Decraftable: 可换档
+ DecraftsInto:
 	'''
-	Decrafts Into:
+	降低到：
 	{0}
-	''' */
-// DecraftsIntoCompact: Decrafts Into {0}
+	'''
+DecraftsIntoCompact: 降低到 {0}
 
 Configs: {
 	CISTModConfig: {
@@ -26,18 +26,18 @@ Configs: {
 		}
 
 		showDecrafts: {
-			// Label: Show Decrafting Tooltip
-			// Tooltip: If enabled, will add an additional tooltip denoting that an item is decraftable, and what into.
+			 Label: 显示破碎工具提示
+			 Tooltip: 如果启用了，将添加一个额外的工具提示，表示项目不可能以及内容。
 		}
 
 		forceShowDecraftOutcome: {
-			// Label: Always Show Decraft Outcome
-			// Tooltip: If enabled, the Decraft tooltip will always show what an item decrafts into. Overrides Discovery Mode.
+			Label: 始终显示出远离结果 
+			Tooltip: 如果启用了，则Nevaft Tooltip将始终显示项目notaft的内容。覆盖发现模式。 
 		}
 
 		compactDecraftList: {
-			// Label: Compact Decraft List
-			// Tooltip: If enabled, the Decraft tooltip will show all resulting decraft items on the same line.
+			Label: 紧凑型脱机列表
+			Tooltip: 如果启用了，则NEFAFT工具提示将显示同一条线上所有结果的Nefaft项目。
 		}
 	}
 }

@@ -3,13 +3,13 @@ Shimmerable: Трансмутабельный
 ShimmerCoinLuck: Трансмутируется в удачу из монет ({0})
 ShimmerableIntoItem: Трансмутируется в предмет [i:{0}] ({1})
 ShimmerableIntoNPC: Трансмутируется в NPC '{0}'
-// Decraftable: Decraftable
-/* DecraftsInto:
+Decraftable: Декабря
+DecraftsInto:
 	'''
-	Decrafts Into:
+	Разрывы в:		
 	{0}
-	''' */
-// DecraftsIntoCompact: Decrafts Into {0}
+	'''
+DecraftsIntoCompact: Разрывы в {0}
 
 Configs: {
 	CISTModConfig: {
@@ -26,18 +26,18 @@ Configs: {
 		}
 
 		showDecrafts: {
-			// Label: Show Decrafting Tooltip
-			// Tooltip: If enabled, will add an additional tooltip denoting that an item is decraftable, and what into.
+			Label: Показать Decrafting Putpip
+			Tooltip: если включена, добавит дополнительную подсказку, обозначающую, что элемент декарафрован и что в. 
 		}
 
 		forceShowDecraftOutcome: {
-			// Label: Always Show Decraft Outcome
-			// Tooltip: If enabled, the Decraft tooltip will always show what an item decrafts into. Overrides Discovery Mode.
+			Label: Всегда показывать исход декабта
+			Tooltip: В случае включения, Decraft Tooltip всегда покажет, в какой предмет разыгрывается. Переопределяет режим обнаружения.
 		}
 
 		compactDecraftList: {
-			// Label: Compact Decraft List
-			// Tooltip: If enabled, the Decraft tooltip will show all resulting decraft items on the same line.
+			Label: Компактный список декарта
+			Tooltip: В случае включения, Decraft Putpip покажет все полученные декарфтовые элементы на одной и той же строке.
 		}
 	}
 }

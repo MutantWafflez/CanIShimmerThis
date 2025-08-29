@@ -3,13 +3,13 @@ Shimmerable: Transmutable
 ShimmerCoinLuck: Transmuable en chance à partir de pièces de monnaie ({0})
 ShimmerableIntoItem: Transmutable en objet [i:{0}] ({1})
 ShimmerableIntoNPC: Transmutable en NPC '{0}'
-// Decraftable: Decraftable
-/* DecraftsInto:
+Decraftable: Réduit
+DecraftsInto:
 	'''
-	Decrafts Into:
+	Diminue dans:
 	{0}
-	''' */
-// DecraftsIntoCompact: Decrafts Into {0}
+	'''
+DecraftsIntoCompact: Diminue dans {0}
 
 Configs: {
 	CISTModConfig: {
@@ -26,18 +26,18 @@ Configs: {
 		}
 
 		showDecrafts: {
-			// Label: Show Decrafting Tooltip
-			// Tooltip: If enabled, will add an additional tooltip denoting that an item is decraftable, and what into.
+			Label: Afficher une infraction à ouvrage décrag
+			Tooltip: S'il est activé, ajoutera une info-bulle supplémentaire indiquant qu'un élément est diminué et dans quoi.
 		}
 
 		forceShowDecraftOutcome: {
-			// Label: Always Show Decraft Outcome
-			// Tooltip: If enabled, the Decraft tooltip will always show what an item decrafts into. Overrides Discovery Mode.
+			Label: Afficher toujours la diminution des résultats
+			Tooltip: S'il est activé, l'infiltration de diminution montrera toujours dans quoi un élément diminue. Remplace le mode de découverte.
 		}
 
 		compactDecraftList: {
-			// Label: Compact Decraft List
-			// Tooltip: If enabled, the Decraft tooltip will show all resulting decraft items on the same line.
+			Label: Liste de diminution compacte
+			Tooltip: S'il est activé, l'infiltration de diminution affichera tous les éléments de diminution résultants sur la même ligne.
 		}
 	}
 }
