@@ -1,5 +1,5 @@
 using Terraria.ModLoader;
 
-namespace CanIShimmerThis {
-    public class CanIShimmerThis : Mod { }
-}
+namespace CanIShimmerThis; 
+
+public class CanIShimmerThis : Mod { }
