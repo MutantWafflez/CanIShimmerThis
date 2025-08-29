@@ -1,12 +1,4 @@
-RELEASE v1.1 [Joy of Discovery] (November 25th, 2023)
+RELEASE v1.1.1 [Decraft Me Down] (August 28th, 2025)
 Additions:
-+ Added "Discovery Mode" (configurable in settings), that will only show item transmutation results after you shimmer that item [Suggested by Users!]
-+ Added a special tooltip for items that give "Coin Luck" when shimmered
-+ Items that transmute into NPCs now have the Shimmerable tooltip
-+ Open-sourced code on GitHub
-Changes:
-* Localization updates in all languages
-* Updated mod icon
-Fixes:
-* Vanilla Post-MoonLord Shimmers will now show their tooltip when the Moon Lord is defeated
-* Fixed the Shimmerable tooltip appearing on items that can't actually be shimmered
++ Added new "Decrafting" Tooltip, which shows in lieu of the "Shimmerable" tooltip if you can decraft the item, but not transmute it. This is configurable.
++ Added a few other config options related to the Decrafting tooltip, for all your customization needs!
